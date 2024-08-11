@@ -1,0 +1,64 @@
+body {
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-container {
+    background-color: white;
+    padding: 40px; /* Increased padding for more space */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    height: 500px; /* Increased height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 210px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+h4, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-size: 20px; /* Decreased font size for h4 */
+    margin-bottom: 10px; /* Margin for spacing */
+}
+
+h6 {
+    font-size: 14px; /* Decreased font size for h6 */
+    margin-bottom: 30px; /* Margin for spacing */
+}
+
+.form-control:focus {
+    border-color: #0077be;
+    box-shadow: 0 0 0 0.2rem rgba(0, 119, 190, 0.25);
+}
+
+.btn-primary {
+    background-color: #0077be;
+    border-color: #0077be;
+}
+
+.btn-primary:hover {
+    background-color: #005fa3;
+    border-color: #005fa3;
+}
+
+.input-group-text {
+    cursor: pointer;
+}

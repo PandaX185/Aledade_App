@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+}
+
+header {
+    background-color: #005f7f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-image: url('Image.png');
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 40px;
+    width: 25%;
+    text-align: center;
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+}
+
+.card h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.blue-btn {
+    background-color: #46B1E8;
+}
+
+.green-btn {
+    background-color: #3FACA6;
+}
+
+footer {
+    background-color: #005f7f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #4a90e2;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons .icon {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-top: 10px;
+}
+/********************/
+.centered-text {
+    text-align: center; /* Centers the text inside the div */
+    margin: 0 auto; /* Centers the div itself if it has a set width */
+}
+
+.centered-text p {
+    margin-bottom: 50px; /* Removes default margin from the paragraph */
+}
