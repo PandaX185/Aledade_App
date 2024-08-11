@@ -9,7 +9,7 @@ document.getElementById('login-form').addEventListener('submit', function(e) {
     var storedPassword = localStorage.getItem('password');
 
     if (email === storedEmail && password === storedPassword) {
-        window.location.href = "../home/index.html"; // Navigate to the home page
+        window.location.href = "../index.html"; // Navigate to the home page
     } else {
         errorMessage.textContent = "Email or password is incorrect. Please check and try again.";
     }
